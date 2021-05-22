@@ -4,9 +4,9 @@ import enum
 
 
 import torch
-from torchtext.data import Dataset, BucketIterator, Field, Example
+from torchtext.legacy.data import Dataset, BucketIterator, Field, Example
 from torchtext.data.utils import interleave_keys
-from torchtext import datasets
+from torchtext.legacy import datasets
 import spacy
 
 

@@ -2,7 +2,7 @@ import argparse
 
 
 import torch
-from torchtext.data import Example
+from torchtext.legacy.data import Example
 
 
 from models.definitions.transformer_model import Transformer

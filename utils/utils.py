@@ -3,7 +3,7 @@ import os
 import time
 
 
-import git
+# import git
 import torch
 from nltk.translate.bleu_score import corpus_bleu
 
